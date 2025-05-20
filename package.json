@@ -23,7 +23,7 @@
   "dependencies": {
     "@credo-ts/core": "^0.5.3",
     "@ayanworks/polygon-did-registry-contract": "3.0.0",
-    "@bhutan-ndi/polygon-did-resolver": "0.0.1-alpha.0",
+    "@bhutan-ndi/polygon-did-resolver": "0.0.1-alpha.1",
     "did-resolver": "^4.1.0",
     "@ethersproject/basex": "^5.7.0",
     "@ethersproject/signing-key": "^5.7.0",
@@ -46,13 +46,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ayanworks/polygon-did-registrar"
+    "url": "https://github.com/Bhutan-NDI/polygon-did-registrar"
   },
   "keywords": [
     "did-method"
   ],
   "bugs": {
-    "url": "https://github.com/ayanworks/polygon-did-registrar/issues"
+    "url": "https://github.com/Bhutan-NDI/polygon-did-registrar/issues"
   },
-  "homepage": "https://github.com/ayanworks/polygon-did-registrar#readme"
+  "homepage": "https://github.com/Bhutan-NDI/polygon-did-registrar#readme"
 }

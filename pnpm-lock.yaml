@@ -11,9 +11,9 @@ importers:
       '@ayanworks/polygon-did-registry-contract':
         specifier: 3.0.0
         version: 3.0.0
-      '@ayanworks/polygon-did-resolver':
-        specifier: 2.0.1-alpha.0
-        version: 2.0.1-alpha.0
+      '@bhutan-ndi/polygon-did-resolver':
+        specifier: 0.0.1-alpha.1
+        version: 0.0.1-alpha.1
       '@credo-ts/core':
         specifier: ^0.5.3
         version: 0.5.7(expo@50.0.6(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21(@babel/core@7.23.9)(@babel/preset-env@7.23.9(@babel/core@7.23.9))))(react-native@0.73.4(@babel/core@7.23.9)(@babel/preset-env@7.23.9(@babel/core@7.23.9))(react@18.2.0))(web-streams-polyfill@3.2.1)
@@ -72,9 +72,6 @@ packages:
 
   '@ayanworks/polygon-did-registry-contract@3.0.0':
     resolution: {integrity: sha512-RnW31nkDIMG1YzuOycxGGrJFpgTcpBwS/UZR6/wMPrsJBKBEN28k2CZImwXkbgaknyTfL7xe1u3C8NxfDvhI4Q==}
-
-  '@ayanworks/polygon-did-resolver@2.0.1-alpha.0':
-    resolution: {integrity: sha512-W3S8iVblLtROspEGbYaBRuhtXMiiXPSjO78x7SvkK9X10ESr2mvBFYbWTMJe+0yjK1l4Ac64n/BArVq3RVBjZQ==}
 
   '@babel/code-frame@7.10.4':
     resolution: {integrity: sha512-vG6SvB6oYEhvgisZNFRmRCUkLz11c7rp+tbNTynGqc6mS1d5ATd/sGyV6W0KZZnXRKMTzZDRgQT3Ou9jhpAfUg==}
@@ -836,6 +833,9 @@ packages:
   '@babel/types@7.23.9':
     resolution: {integrity: sha512-dQjSq/7HaSjRM43FFGnv5keM2HsxpmyV1PfaSVm0nzzjwwTmjOe6J4bC8e3+pTEIgHaHj+1ZlLThRJ2auc/w1Q==}
     engines: {node: '>=6.9.0'}
+
+  '@bhutan-ndi/polygon-did-resolver@0.0.1-alpha.1':
+    resolution: {integrity: sha512-2avxats2s+eMhA5+p3xvsI0XFRA1A2eyUVqMNVHH6mgu2nFcumI8vRzMxbBRnFF7RqP+d+HsnMuEoT4siqGNjQ==}
 
   '@credo-ts/core@0.5.7':
     resolution: {integrity: sha512-KI1bDC99rJUykWbYOQVAjcfOCkkcpg7lAZR1r/jlaiLBdEzx3Y/GpNZ7V3U/gRuOAkYuxx0DvlA2AUOWCFJ+4w==}
@@ -4786,12 +4786,15 @@ packages:
 
   sudo-prompt@8.2.5:
     resolution: {integrity: sha512-rlBo3HU/1zAJUrkY6jNxDOC9eVYliG6nS4JA8u8KAshITd07tafMc/Br7xQwCSseXwJ2iCcHCE8SNWX3q8Z+kw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   sudo-prompt@9.1.1:
     resolution: {integrity: sha512-es33J1g2HjMpyAhz8lOR+ICmXXAqTuKbuXuUWLhOLew20oN9oUCgCJx615U/v7aioZg7IX5lIh9x34vwneu4pA==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   sudo-prompt@9.2.1:
     resolution: {integrity: sha512-Mu7R0g4ig9TUuGSxJavny5Rv0egCEtpZRNMrZaYS1vxkiIxGiGUwoezU3LazIQ+KE04hTrTfNPgxU5gzi7F5Pw==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}
@@ -5358,15 +5361,6 @@ snapshots:
       static-eval: 2.0.2
 
   '@ayanworks/polygon-did-registry-contract@3.0.0': {}
-
-  '@ayanworks/polygon-did-resolver@2.0.1-alpha.0':
-    dependencies:
-      '@ayanworks/polygon-did-registry-contract': 3.0.0
-      did-resolver: 4.1.0
-      ethers: 5.7.2
-    transitivePeerDependencies:
-      - bufferutil
-      - utf-8-validate
 
   '@babel/code-frame@7.10.4':
     dependencies:
@@ -6385,6 +6379,15 @@ snapshots:
       '@babel/helper-string-parser': 7.23.4
       '@babel/helper-validator-identifier': 7.22.20
       to-fast-properties: 2.0.0
+
+  '@bhutan-ndi/polygon-did-resolver@0.0.1-alpha.1':
+    dependencies:
+      '@ayanworks/polygon-did-registry-contract': 3.0.0
+      did-resolver: 4.1.0
+      ethers: 5.7.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
 
   '@credo-ts/core@0.5.7(expo@50.0.6(@babel/core@7.23.9)(@react-native/babel-preset@0.73.21(@babel/core@7.23.9)(@babel/preset-env@7.23.9(@babel/core@7.23.9))))(react-native@0.73.4(@babel/core@7.23.9)(@babel/preset-env@7.23.9(@babel/core@7.23.9))(react@18.2.0))(web-streams-polyfill@3.2.1)':
     dependencies:
